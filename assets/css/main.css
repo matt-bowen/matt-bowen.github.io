@@ -2600,7 +2600,7 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner2.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3096,4 +3096,11 @@
 .carousel-caption{
     color:#000;
     position:static;
+}
+
+.text-muted{
+	text-align: right;
+	font-size: 12pt;
+	padding-right: 15px;
+	padding-top: -5px;
 }
