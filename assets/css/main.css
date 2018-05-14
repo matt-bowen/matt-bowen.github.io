@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("fontawesome-all.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 /*
@@ -1801,7 +1801,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: 'Font Awesome 5 Free';
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -1867,7 +1867,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: 'Font Awesome 5 Free';
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1972,7 +1972,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: 'Font Awesome 5 Free';
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2085,7 +2085,7 @@
 				ul.feature-icons li:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: 'Font Awesome 5 Free';
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -2841,7 +2841,7 @@
 					#titleBar .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
+						font-family: 'Font Awesome 5 Free';
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
@@ -3099,8 +3099,51 @@
 }
 
 .text-muted{
+	color:#b6bac1;
 	text-align: right;
 	font-size: 12pt;
 	padding-right: 15px;
 	padding-top: -5px;
 }
+.label{
+	display: none;
+}
+.no-underline{
+	display: inline-block;
+	text-decoration: none;
+}
+
+i:before {
+	content: "\f013";
+  	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-variant-caps: normal;
+	font-variant-ligatures: normal;
+	font-weight: 900;
+	height: 16px;
+	line-height: 16px;
+	text-rendering: auto;
+	width: 16px;
+	-webkit-font-smoothing: antialiased;
+	/*
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Font Awesome 5 Free';
+	content: '\f121';
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important; */
+}
+i:before {
+	background: #4acaa8;
+	border-radius: 100%;
+	color: #ffffff;
+	display: block;
+	height: 2.5em;
+	left: 0;
+	line-height: 2.5em;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 2.5em;
+} 
