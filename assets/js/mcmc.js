@@ -7,7 +7,7 @@ window.onload = function () {
     "use strict";
     var canvas = window.document.getElementById("theCanvas"),
         context = canvas.getContext("2d"),
-        clength = 200,
+        clength = 400,
         temperature = 3,
         slider = window.document.getElementById("myRange"),
         playAnim = true,
