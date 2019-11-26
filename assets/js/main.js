@@ -6,6 +6,13 @@
 
 (function($) {
 
+	$("body").on("click", ".modal-dialog", function(e) {
+        if ($(e.target).hasClass('modal fade and carousel slide')) {
+            var hidePopup = $(e.target.parentElement).attr('id');
+            $('#' + hidePopup).modal('hide');
+        }
+    });
+
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',

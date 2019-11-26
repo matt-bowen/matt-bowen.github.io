@@ -21,8 +21,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<script src="https://kit.fontawesome.com/921516322f.js" crossorigin="anonymous"></script>
+		<!-- <link rel="stylesheet" href="assets/css/fontawesome-all.css" /> -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/fontawesome-all.css" />
+		<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<!--<link rel="stylesheet" href="assets/css/bootstrap.min.css" /> -->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 
@@ -34,6 +38,7 @@
 		  	}
 		</script>
 		<!-- font awesome icons won't work without this -->
+
 		
 	</head>
 	<body>
@@ -74,8 +79,6 @@
 				<footer>
 					<ul class="icons">
 						<li><a href="https://www.linkedin.com/in/mtbowen/" class="fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.facebook.com/mattb0wen" class="fab fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.instagram.com/mattb0wen/" class="fab fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://github.com/matt-bowen" class="fab fa-github"><span class="label">Github</span></a></li>
 						<li><a href="mailto:matt@mattbowen.ca" class="fas fa-envelope-square"><span class="label">Email</span></a></li>
 					</ul>
@@ -98,28 +101,32 @@
 										BScH Physics &amp; Computing, Queen's University</p>
 									</header>
 									<p>Hello! I'm Matt, a student at the Royal Military College of Canada, where I am pursuing a Master's of Science degree in Physics &amp; Space Science with a research focus on remote sensing. I graduated from Queen's University in 2018 with a Bachelor's of Science (Honours) in Physics and Computing Science. In addition to my studies, I have a background in electrical engineering through various jobs and volunteer positions. Currently, I am the Chief Technical Officer for the Queen's Space Engineering Team's Satellite Project, as well as a Junior Web Developer at Docupet Inc., a Kingston based technology startup.</p>
+									<p>I am currently seeking opportunities in the space sector in an operations, analytical, or software role. Please take a look at my <a href="assets/resume.pdf" target="_blank">resume!</a></p>
+									<p>I recently had the opprtunity to attend the <a href="https://css.ca/summit/canadian-space-summit-2019/" target="_blank">2019 Canadian Space Summit</a>, and I wrote a short blog about the experience. You can read my thoughts <a href="http://spacemissiontraining.ca/blog" target="_blank">here.</a></p>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
+									<h3>Skills Profile</h3>
+									<ul class="feature-icons">
+										<li><i class="fas fa-space-shuttle"></i> Space Mission Design</li>
+										<li><i class="fas fa-globe"></i> Remote Sensing</li>
+										<li><i class="fas fa-rocket"></i> Orbital Mechanics &amp; Astrodynamics</li>
+										<li><i class="fas fa-code"></i> Web &amp; Software Development</li>
+										<li><i class="fas fa-flask"></i> Data Analysis</li>
+										<!-- <li><i class="fas fa-plug"></i> Electrical Prototyping and Photovoltaic Systems</li> -->
+										<li><i class="fas fa-users"></i> Teamwork &amp; Management</li>
+									</ul>
+								</div>
+								<!--
+								<div class="container" style="padding: 0px;">
 									<h3>My History</h3>
 									<p>Growing up a military kid, I grew fond of aviation and spaceflight, with the ultimate goal of becoming an astronaut. I bounced around various military towns, including a jaunt in Europe, before finishing my high school education at Mark Isfeld Secondary School in Courtenay, BC. Eventually, I grew too tall to be an astronaut and had to settle for the study of the cosmos while earthbound. I chose to attend Queen's University initially with a specialization in Astrophysics, however, after I took an intro to computing course, I discovered a second passion. I've always enjoyed creating things with my hands, and now I can do so with code as well!</p>
 									<p>Throughout my time at Queen's, I worked various odd jobs in other areas of interest to me. In my final year at Queen's, I worked at the Alma Mater Society as the Director of Information Technology, where I gained valuable experience in a practical setting. Upon the completion of my studies at Queen's, I decided to continue my education at the Royal Military College of Canada in Physics and Space Science. The first year of my studies at RMC consisted of coursework, where I engaged with topics such as Space Mission Analysis &amp; Design, Space Communications, and Astrodynamics &amp; Orbital Mechanics. This year, I am completing my Master's thesis in remote sensing by studying large datasets of MetOp-A AVHRR IR imagery at the poles for climatic markers.</p>
 								</div>
-								<div class="container" style="padding: 0;">
-									<h3>Things I Can Do</h3>
-									<ul class="feature-icons">
-										<li><i class="fas fa-space-shuttle"></i> Talk about space</li>
-										<li><i class="fas fa-code"></i> Write the best code</li>
-										<li><i class="fas fa-screwdriver"></i> Fix all the things</li>
-										<li><i class="fas fa-plug"></i> Build zappy stuff</li>
-										<li><i class="fas fa-flask"></i> Sciencey processes</li>
-										<li><i class="fas fa-users"></i> Manage the greatest teams</li>
-									</ul>
-									<p>A full list of my abilities and work experience can be found on my <a href="assets/resume.pdf" target="_blank">resume!</a></p>
-								</div>
+								-->
 							</section>
 
 						<!-- Three -->
@@ -128,35 +135,158 @@
 									<h3>Some Past and Current Work</h3>
 									<div class="features">
 										<article>
-											<a href="#" class="image" id="saskImg"><img class="myImages" src="images/sask.jpg"/></a>
-											<div id="myModal" class="modal">
-												<!-- The Close Button -->
-												<span class="close">&times;</span>
-												<!-- Modal Content (The Image) -->
-												<img class="modal-content" id="img01" src="images/sask.jpg">
-												<!-- Modal Caption (Image Text) -->
-												<div id="caption"></div>
+
+											<a href="#lightbox0" data-toggle="modal" class="image"><img class="img-thumbnail" src="images/multi.jpg"></a>
+											 
+											<div class="modal fade and carousel slide" id="lightbox0">
+												<div class="modal-dialog">
+
+											    	<div class="modal-content">
+											        	<div class="modal-body">
+
+												        	
+												          	<div class="carousel-inner">
+												            	<div class="item active">
+												              		<img src="images/multi.jpg" alt="First slide">
+												              		<div class="carousel-caption mb-4"><p style="padding-left: 15px;text-align: left;">A sample of CASSTA-processed imagery of Pine Island Bay, Antarctica. Black regions display the presence of surface or atmospheric dust, while magenta regions indicate atmospheric ice crystals.</p></div>
+												            	</div>
+												            	
+												          	</div>
+											          		
+											        	</div>
+											      	</div>
+											    </div>
 											</div>
+											
 											<div class="inner">
-												<h4>Space Mission Design</h4>
-												<p>As part of my studies, I had the chance to take part in an educational exercise to launch a weather balloon in collaboration with students from the University of Saskatoon and the University of Tromsø. For the month of July 2019, I worked with my colleagues to design and construct the flight and ground segments of our mission.</p>
+												<h4>Master's Thesis: Polar Dust Loading Analysis using MetOp-A AVHRR Imagery</h4>
+												<p>Dust deposition and aerosols in high latitudes may contribute to polar amplification. Utilizing a modified <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2007JC004353" target="_blank">composite arctic sea surface temperature algorithm</a> (CASSTA) on 13 years of AVHRR data will yield a large dataset with hourly granularity.</p>
+											</div>
+										</article>
+
+										<article>
+
+											<a href="#lightbox1" data-toggle="modal" class="image"><img class="img-thumbnail" src="images/sask0.jpg"></a>
+											 
+											<div class="modal fade and carousel slide" id="lightbox1">
+												<div class="modal-dialog" style="width: 50vw">
+
+											    	<div class="modal-content">
+											        	<div class="modal-body">
+
+												        	<ol class="carousel-indicators my-4">
+												            	<li data-target="#lightbox1" data-slide-to="0" class="active"></li>
+												            	<li data-target="#lightbox1" data-slide-to="1"></li>
+												            	<li data-target="#lightbox1" data-slide-to="2"></li>
+												            	<li data-target="#lightbox1" data-slide-to="3"></li>
+												          	</ol>
+												          	<div class="carousel-inner">
+												            	<div class="item active">
+												              		<img src="images/sask0.jpg" alt="First slide">
+												              		<div class="carousel-caption mb-4"><p>Scrambling last minute to fix an electrical issue.</p></div>
+												            	</div>
+												            	<div class="item">
+												              		<img class="img-responsive" src="images/sask1.jpg" alt="Second slide">
+												              		<div class="carousel-caption mb-4"><p>Setting up the groundstation antenna.</p></div>
+												            	</div>
+												            	<div class="item">
+												              		<img class="img-responsive" src="images/sask2.jpg" alt="Third slide">
+												              		<div class="carousel-caption"><p>T-30 seconds to launch!</p></div>
+												            	</div>
+												            	<div class="item">
+												              		<img class="img-responsive" src="images/sask3.jpg" alt="Third slide">
+												            	</div>
+												          	</div>
+											          		<a class="left carousel-control" href="#lightbox1" role="button" data-slide="prev">
+											            		<span class="glyphicon glyphicon-chevron-left"></span>
+											          		</a>
+											          		<a class="right carousel-control" href="#lightbox1" role="button" data-slide="next">
+											            		<span class="glyphicon glyphicon-chevron-right"></span>
+											          		</a>
+											        	</div>
+											      	</div>
+											    </div>
+											</div>
+											
+											<div class="inner">
+												<h4>Space Mission Design Course</h4>
+												<p>As part of my studies, I had the chance to take part in an educational exercise to launch a weather balloon in collaboration with students from the University of Saskatoon and the University of Tromsø. For the month of July 2019, I worked with my colleagues to design and construct the flight and ground segments of our mission, with my areas of responsibility including flight software, power delivery, and radio communications &amp; tracking. A summary video of the mission can be viewed <a href="https://youtu.be/8jI2IBERiXY" target="_blank">here.</a></p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image" id="qsetImg"><img class="myImages" src="images/qset.jpg"/></a>
-											<div id="myModal" class="modal">
-												<!-- The Close Button -->
-												<span class="close">&times;</span>
-												<!-- Modal Content (The Image) -->
-												<img class="modal-content" id="img01" src="images/qset.jpg">
-												<!-- Modal Caption (Image Text) -->
-												<div id="caption"></div>
+										<a href="#lightbox2" data-toggle="modal" class="image"><img class="img-thumbnail" src="images/qset.jpg"></a>
+											 
+											<div class="modal fade and carousel slide" id="lightbox2">
+												<div class="modal-dialog">
+
+											    	<div class="modal-content">
+											        	<div class="modal-body">
+
+												        	<ol class="carousel-indicators">
+												            	<li data-target="#lightbox2" data-slide-to="0" class="active"></li>
+												            	<li data-target="#lightbox2" data-slide-to="1"></li>
+												            	<li data-target="#lightbox2" data-slide-to="2"></li>
+												          	</ol>
+												          	<div class="carousel-inner">
+												            	<div class="item active">
+												              		<img class="img-responsive" src="images/qset.jpg" alt="First slide">
+												              		<div class="carousel-caption"><p>Prepping for vibration testing at CSA's David Florida Lab.</p></div>
+												            	</div>
+												            	<div class="item">
+												              		<img class="img-responsive" src="images/qset2.jpg" alt="Second slide">
+												              		<div class="carousel-caption"><p style="padding-left: 15px;text-align: left;">The Characterization of Space Materials Satellite (CoSMOSat) carried an optical spectrometer for in-situ materials science.</p></div>
+												            	</div>
+												            	<div class="item">
+												              		<img class="img-responsive" src="images/qset3.png" alt="Third slide">
+												              		<div class="carousel-caption"><p style="padding-left: 15px;text-align: left;">QSET was proud to be a partner at Kingston's Science Rendezvous in 2019.</p></div>
+												            	</div>
+												          	</div>
+											          		<a class="left carousel-control" href="#lightbox2" role="button" data-slide="prev">
+											            		<span class="glyphicon glyphicon-chevron-left"></span>
+											          		</a>
+											          		<a class="right carousel-control" href="#lightbox2" role="button" data-slide="next">
+											            		<span class="glyphicon glyphicon-chevron-right"></span>
+											          		</a>
+											        	</div>
+											      	</div>
+											    </div>
 											</div>
+
+											
 											<div class="inner">
 												<h4>QSET CoSMOSat and QUBESat</h4>
-												<p>As the Electrical Systems Design Lead, I helped engineer the Characterization of Space Materials Satellite (CoSMOSat) for the Queen's Space Engineering Team (QSET) from 2016-2018. I'm excited to be the Chief Technical Officer for QSET's next entry in the <a href="https://www.csdcms.ca/">Canadian Satellite Design Challenge</a>, QUBESat. Find out more about QSET <a href="http://www.qset.ca">here</a> and <a href="https://www.facebook.com/queensspaceteam">here</a>.</p>
+												<p>As the Electrical Systems Design Lead, I helped engineer the Characterization of Space Materials Satellite (CoSMOSat) for the Queen's Space Engineering Team (QSET) from 2016-2018. I'm excited to be the Chief Technical Officer for QSET's next entry in the <a href="https://www.csdcms.ca/" target="_blank">Canadian Satellite Design Challenge</a>, QUBESat. Find out more about QSET <a href="http://www.qset.ca" target="_blank">here</a> and <a href="https://www.facebook.com/queensspaceteam" target="_blank">here</a>.</p>
 											</div>
 										</article>
+
+										<article>
+										<a href="#lightbox3" data-toggle="modal" class="image"><img class="img-thumbnail" src="images/GALFIT.png"></a>
+											 
+											<div class="modal fade and carousel slide" id="lightbox3">
+												<div class="modal-dialog" style="width: 50vw">
+
+											    	<div class="modal-content">
+											        	<div class="modal-body">
+
+												          	<div class="carousel-inner">
+												            	<div class="item active">
+												              		<img class="img-responsive" src="images/GALFIT.png" alt="First slide">
+												              		<div class="carousel-caption"><p style="padding-left: 15px;text-align: left;">VCC0543 is a dE5 elliptical galaxy in the Virgo cluster. The raw NGVS imagery is displayed on the left, with the computed light profile model in center, and the residual image on the right.</p></div>
+												            	</div>
+												          	</div>
+											          		
+											        	</div>
+											      	</div>
+											    </div>
+											</div>
+
+											
+											<div class="inner">
+												<h4>Undergraduate Thesis: 2-D Analysis of Stellar Haloes in Virgo Cluster Galaxies</h4>
+												<p>Spiral and elliptic galaxies are composed of three main structures: a bulge, a disc, and a halo. The halo consists of highly inclined, dispersed, and old stars and are often difficult to directly detect due to their faintness. Using Next Generation Virgo Survey imagery (NGVS), I attempted to present original 2-dimensional models of galactic light profiles. You can view a copy of my findings on this <a href="assets/Matt-Bowen_Poster.pdf" target="_blank">poster.</a></p>
+											</div>
+										</article>
+
 										<article>
 											<a href="mcmc.html" class="image"><img src="images/mcmc2.png" alt="A thumbnail of the MCMC simulation" /></a>
 											<div class="inner">
@@ -165,15 +295,47 @@
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img class="myImages" src="images/walkhome.png" alt="Screenshots from the Walkhome Mobile App"/></a>
-											<div id="myModal" class="modal">
-												<!-- The Close Button -->
-												<span class="close">&times;</span>
-												<!-- Modal Content (The Image) -->
-												<img class="modal-content" id="img02">
-												<!-- Modal Caption (Image Text) -->
-												<div id="caption"></div>
+
+											<a href="#lightbox4" data-toggle="modal" class="image"><img class="img-thumbnail" src="images/walkhome0.png"></a>
+											 
+											<div class="modal fade and carousel slide" id="lightbox4">
+												<div class="modal-dialog">
+
+											    	<div class="modal-content">
+											        	<div class="modal-body">
+											        		
+												        	<ol class="carousel-indicators">
+												            	<li data-target="#lightbox4" data-slide-to="0" class="active"></li>
+												            	<li data-target="#lightbox4" data-slide-to="1"></li>
+												            	<li data-target="#lightbox4" data-slide-to="2"></li>
+												            	<li data-target="#lightbox4" data-slide-to="3"></li>
+												          	</ol>
+												          	<div class="carousel-inner">
+												            	<div class="item active">
+												              		<img class="img-responsive" src="images/walkhome0.png" alt="First slide">
+												            	</div>
+												            	<div class="item">
+												              		<img class="img-responsive" src="images/walkhome1.png" alt="Second slide">
+												            	</div>
+												            	<div class="item">
+												              		<img class="img-responsive" src="images/walkhome2.png" alt="Second slide">
+												            	</div>
+												            	<div class="item">
+												              		<img class="img-responsive" src="images/walkhome3.png" alt="Second slide">
+												            	</div>
+												          	</div>
+												          	
+											          		<a class="left carousel-control" href="#lightbox4" role="button" data-slide="prev">
+											            		<span class="glyphicon glyphicon-chevron-left"></span>
+											          		</a>
+											          		<a class="right carousel-control" href="#lightbox4" role="button" data-slide="next">
+											            		<span class="glyphicon glyphicon-chevron-right"></span>
+											          		</a>
+											        	</div>
+											      	</div>
+											    </div>
 											</div>
+										
 											<div class="inner">
 												<h4>Walkhome Mobile App</h4>
 												<p>As the Director of IT at the AMS, I developed the requirements and user experience flow for the mobile app for the AMS Walkhome service.</p>
